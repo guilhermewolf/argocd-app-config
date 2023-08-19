@@ -1,0 +1,6 @@
+architecture: replicaset
+replicationCount: 3
+persistence:
+  storageClass: "linode-block-storage"
+auth:
+  rootPassword: secret-root-pwd
